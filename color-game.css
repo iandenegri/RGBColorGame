@@ -1,0 +1,89 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Montserrat', 'Avenir', 'Arial';
+}
+
+h1, h3, span {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+button {
+    border: none;
+    background-color: none;
+    background: none;
+    outline: none;
+
+    font-family: 'Montserrat', 'Avenir', 'Arial';
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: steelblue;
+
+    height: 100%;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+    background-color: steelblue;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 25%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 10%;
+    --webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+#container {
+    margin: 15px auto;
+    max-width: 600px;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#player_status {
+    color: black;
+}
+
+#color_display {
+    font-size: 200%;
+}
+
+#player_status {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-family: 'Montserrat', 'Avenir', 'Arial';
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
